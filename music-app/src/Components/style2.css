@@ -1,0 +1,74 @@
+.login{
+    width: 400px;
+    height:250px;
+    border:none;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.login input{
+    width: 80%;
+    margin-bottom: 30px;
+    padding: 8px;
+    border: 1px solid rgb(131, 88, 170);  
+    outline-color: rgb(34, 237, 34);
+   
+    
+}
+.login h3{
+    padding-top: 15px;
+}
+ .lbutton{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 3px;
+    background-color: rgb(39, 37, 40);
+    color: white;
+    width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+.register{
+    width: 400px;
+    height:390px;
+    border:none;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+}
+.register input{
+    width: 80%;
+    margin-bottom: 30px;
+    padding: 6px;
+    border: 1px solid rgb(32, 4, 57);  
+ 
+    outline: none; 
+}
+.register h3{
+    padding-top: 15px;
+}
+.register a:hover{
+    background-color: rgb(121, 105, 243);
+}
+.regBtn{
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.regBtn:hover{
+    background-color: white;
+    color: black;
+}

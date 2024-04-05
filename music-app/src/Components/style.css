@@ -1,0 +1,76 @@
+body{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav{
+    width: 98%;
+    height:80px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.nav_options{
+    color: rgb(10, 8, 8);
+    font-size: 17px;
+    color: white;
+
+}
+.nav_options p{
+    font-size: 17px;
+}
+.nav_options:hover{
+    color: rgb(242, 247, 236);
+}
+.hdng1 h2{
+    margin-left: 15px;
+    color: rgb(249, 43, 43);
+}
+.cards{
+    width: 1000px;
+    height: 270px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+   
+}
+.card{
+    width: 100%;
+    height:240px;
+    background-color: black;
+    flex-direction: column;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height:100px;
+    cursor: pointer;
+}
+.image_text{
+    font-size: 13px;
+    color: white;
+}
+.icons{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.plyBtn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: rgba(27, 25, 25, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(27, 25, 25, 0.1);
+    color: white;
+    border: 1px solid white;   
+}
